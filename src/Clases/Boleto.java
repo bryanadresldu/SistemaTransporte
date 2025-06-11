@@ -40,15 +40,15 @@ public class Boleto extends Ticket {
     }
 
     public double calcularPrecio() {
-    double precioBase = ruta.getPrecio() ;
-    double precioMaletasExtra = 0;
+        double precioBase = ruta.getPrecio() ;
+        double precioMaletasExtra = 0;
 
-    if (servicioExtra != null) {
-        precioMaletasExtra = servicioExtra.calcularCostoMaletasExtra();
+        if (servicioExtra != null) {
+            precioMaletasExtra = servicioExtra.calcularCostoMaletasExtra();
+        }
+
+        return precioBase + precioMaletasExtra;
     }
-
-    return precioBase + precioMaletasExtra;
-}
 
     @Override
     public void mostrarInformacion() {

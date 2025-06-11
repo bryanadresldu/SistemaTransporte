@@ -18,7 +18,7 @@ public class BoletoVIP extends Boleto {
     }
 
     // Getters y Setters
-    public boolean isTv() {
+    public boolean getTv() {
         return tv;
     }
 
@@ -26,7 +26,7 @@ public class BoletoVIP extends Boleto {
         this.tv = tv;
     }
 
-    public boolean isInternet() {
+    public boolean getInternet() {
         return internet;
     }
 
