@@ -13,15 +13,14 @@ public class Main {
         Pasajero p4 = new Pasajero();
         Pasajero p5 = new Pasajero();
 
-        // Mostrar informacion de pasajero con valores nuevos
-
+        // Mostrar informacion de pasajero con valores nulos
         p1.mostrarInformacion();
         p2.mostrarInformacion();
         p3.mostrarInformacion();
         p4.mostrarInformacion();
         p5.mostrarInformacion();
 
-        // Setear los atributos delos pasasjeros
+        // Setear los atributos delos pasajeros
         p1.setNombre("Luis Recalvo"); p1.setCedula("129339403938");p1.setEdad(31);
         p2.setNombre("Alfonso Laos"); p2.setCedula("1323494032");p2.setEdad(21);
         p3.setNombre("Enner Valencia"); p3.setCedula("140384029340");p3.setEdad(12);
